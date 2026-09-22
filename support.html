@@ -54,7 +54,7 @@
 <body>
     <h1>✝️ Ora - Support</h1>
     
-    <p><strong>Ora</strong> is a Catholic liturgical prayer app providing the Divine Office, Mass readings, and the liturgical calendar.</p>
+    <p><strong>Ora</strong> is an offline Catholic liturgical prayer app providing the traditional Divine Office, the 1962 liturgical calendar, saints, and daily Mass texts in Latin and English.</p>
 
     <div class="contact-box">
         <h2>Contact Us</h2>
@@ -66,28 +66,25 @@
 
     <div class="faq">
         <div class="question">Q: Does Ora require an internet connection?</div>
-        <div class="answer">A: No! Ora is completely offline-first. All liturgical data is bundled with the app. Internet is never required.</div>
+        <div class="answer">A: No. Ora's prayer, calendar, saint, Mass, Office, and Latin dictionary content is bundled with the app. Internet access is only needed if you choose to open an external link.</div>
 
         <div class="question">Q: Which calendar does Ora follow?</div>
-        <div class="answer">A: Ora includes both the Traditional Latin Mass (1962 Missale) and Novus Ordo calendars. You can choose your preference in Settings.</div>
+        <div class="answer">A: Ora follows the traditional 1962 Roman calendar and uses source-resolved texts derived from the Divinum Officium project.</div>
 
         <div class="question">Q: Can I sync liturgical events to my iOS Calendar?</div>
-        <div class="answer">A: Yes! Enable "Sync to Calendar" in Settings. Ora will create a calendar called "Catholic — Liturgical" with saints, holy days, and major feasts.</div>
+        <div class="answer">A: Yes. Enable "Saint of the Day Calendar" in Settings. Ora creates a dedicated calendar called "Ora — Saint of the Day" with one all-day saint entry and short biography per date. Optional labels identify fixed Holy Days of Obligation and major observances.</div>
 
         <div class="question">Q: Is my data private?</div>
-        <div class="answer">A: Absolutely. Ora collects NO data. Everything is stored locally on your device. See our <a href="privacy.html">Privacy Policy</a>.</div>
+        <div class="answer">A: Yes. The developer collects no personal information through Ora. Core content and settings stay on your device; optional calendar entries may sync through your chosen calendar account. See our <a href="privacy.html">Privacy Policy</a>.</div>
 
-        <div class="question">Q: Why doesn't every day have a saint?</div>
-        <div class="answer">A: The liturgical calendar doesn't assign a major saint feast to every day. Some days are "ferial" (ordinary days) in the liturgical season.</div>
-
-        <div class="question">Q: Can I use Ora for both forms of the Mass?</div>
-        <div class="answer">A: Yes! Ora provides readings for both the Traditional Latin Mass (Extraordinary Form) and the Novus Ordo (Ordinary Form).</div>
+        <div class="question">Q: How are Ember Days shown?</div>
+        <div class="answer">A: Ora shows an advance notice during the week before Embertide and a dedicated card on each Ember Wednesday, Friday, and Saturday. Tap the card to read what Ember Days are and how Catholics have traditionally observed them. Optional same-day reminders are available in Settings.</div>
 
         <div class="question">Q: Is Latin available?</div>
-        <div class="answer">A: Latin texts are coming in a future update. Currently, English is supported.</div>
+        <div class="answer">A: Yes. Mass sections place the Latin text above the English translation. Tap an individual Latin word for an offline morphology and dictionary explanation.</div>
 
         <div class="question">Q: How accurate is the liturgical data?</div>
-        <div class="answer">A: Ora uses authoritative sources: Divinum Officium for traditional texts and romcal for calendar calculations. All data has been verified against official sources.</div>
+        <div class="answer">A: Ora's traditional Mass and Office content is generated from a pinned version of the open-source Divinum Officium project and checked by automated calendar and corpus tests. Ora is an independent app, not an official publication; consult your parish or diocese for jurisdiction-specific obligations.</div>
 
         <div class="question">Q: Can I request a feature?</div>
         <div class="answer">A: Yes! Email us with your suggestion. We're especially interested in features that help people pray better.</div>
@@ -99,9 +96,9 @@
         <div class="question">Issue: Calendar sync isn't working</div>
         <div class="answer">Solution:
             <ol>
-                <li>Go to iOS Settings → Ora → Enable "Calendars"</li>
-                <li>Open Ora → Settings → Enable "Sync to Calendar"</li>
-                <li>Return to iOS Calendar app and check for "Catholic — Liturgical" calendar</li>
+                <li>Go to iOS Settings → Apps → Ora → Calendars and allow access</li>
+                <li>Open Ora → Settings → enable "Saint of the Day Calendar"</li>
+                <li>Return to Apple Calendar and make sure "Ora — Saint of the Day" is visible</li>
             </ol>
         </div>
 
@@ -115,10 +112,10 @@
         </div>
 
         <div class="question">Issue: App is showing wrong date</div>
-        <div class="answer">Solution: The app syncs with your device's date. Check iOS Settings → General → Date & Time. The app updates automatically at midnight.</div>
+        <div class="answer">Solution: The app syncs with your device's date. Check iOS Settings → General → Date &amp; Time. The app updates automatically at midnight.</div>
 
         <div class="question">Issue: Text is too small/large</div>
-        <div class="answer">Solution: Ora supports Dynamic Type. Adjust text size in iOS Settings → Display & Brightness → Text Size.</div>
+        <div class="answer">Solution: Ora supports Dynamic Type. Adjust text size in iOS Settings → Display &amp; Brightness → Text Size.</div>
     </div>
 
     <h2>About the Data Sources</h2>
@@ -126,14 +123,13 @@
     <p>Ora uses open-source liturgical content:</p>
     <ul>
         <li><strong>Divinum Officium</strong> - Traditional Roman Breviary and Missale texts (MIT License)</li>
-        <li><strong>romcal</strong> - Liturgical calendar computation (MIT License)</li>
-        <li><strong>Butler's Lives of the Saints</strong> - Saint biographies (Public Domain)</li>
+        <li><strong>romcal</strong> - General liturgical calendar reference (MIT License)</li>
+        <li><strong>Whitaker's WORDS</strong> - Offline Latin morphology and dictionary data</li>
     </ul>
 
     <h2>Legal</h2>
     <ul>
         <li><a href="privacy.html">Privacy Policy</a></li>
-        <li><a href="terms.html">Terms of Service</a></li>
     </ul>
 
     <hr style="margin: 40px 0; border: none; border-top: 1px solid #C88FAE;">
